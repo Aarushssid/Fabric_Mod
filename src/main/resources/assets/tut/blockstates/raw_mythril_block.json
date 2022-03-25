@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model":  "tut:block/raw_mythril_block"}
+  }
+}

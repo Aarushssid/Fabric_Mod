@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tut:mythril_ore",
+    "tut:deepslate_mythril_ore",
+    "tut:mythril_block",
+    "tut:raw_mythril_block"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "item.tut.mythril_ingot": "Mythril Ingot",
+  "item.tut.mythril_nugget": "Mythril Nugget",
+  "item.tut.raw_mythril": "Raw Mythril",
+  "item.tut.dowsing_rod": "Dowsing Rod",
+  "item.tut.turnip": "Turnip",
+  "item.tut.coal_sliver": "Coal Sliver",
+
+
+  "block.tut.mythril_block": "Mythril Block",
+  "block.tut.mythril_ore": "Mythril Ore",
+  "block.tut.deepslate_mythril_ore": "Deepslate Mythril Ore",
+  "block.tut.raw_mythril_block": "Raw Mythril Block",
+  "block.tut.nether_mythril_ore": "Nether Mythril Ore",
+  "block.tut.speedy_block": "Speedy Block",
+
+  "itemGroup.tut.tut": "Tut",
+
+  "item.tut.dowsing_rod.no_valuables": "No Valuables Found!",
+  "item.tut.dowsing_rod.tooltip": "§8§oRight Click to find valubles"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "tut:raw_mythrils"
+    }
+  },
+  "result": {
+    "item": "tut:raw_mythril_block"
+  }
+}
