@@ -41,10 +41,22 @@ public class ModBlocks {
 
     public static final Block MYTHRIL_SLAB = registerBlock("mythril_slab",
             new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.Tut);
+
     public static final Block MYTHRIL_BUTTON = registerBlock("mythril_button",
             new ModStoneButtonBlock(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.Tut);
+
     public static final Block MYTHRIL_PRESSURE_PLATE = registerBlock("mythril_pressure_plate",
-            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.Tut);
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,FabricBlockSettings
+                    .of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.Tut);
+
+    public static final Block MYTHRIL_FENCE = registerBlock("mythril_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.Tut);
+
+    public static final Block MYTHRIL_FENCE_GATE = registerBlock("mythril_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.Tut);
+
+    public static final Block MYTHRIL_WALL = registerBlock("mythril_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.Tut);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

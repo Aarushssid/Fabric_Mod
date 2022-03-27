@@ -17,6 +17,9 @@
   "block.tut.mythril_slab": "Mythril Slab",
   "block.tut.mythril_button": "Mythril Button",
   "block.tut.mythril_pressure_plate": "Mythril Pressure Plate",
+  "block.tut.mythril_fence": "Mythril Fence",
+  "block.tut.mythril_fence_gate": "Mythril Fence Gate",
+  "block.tut.mythril_wall": "Mythril Wall",
 
 
   "itemGroup.tut.tut": "Tut",
