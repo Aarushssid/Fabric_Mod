@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "tut:block/mythril_pressure_plate" },
+    "powered=true": { "model": "tut:block/mythril_pressure_plate_down" }
+  }
+}
