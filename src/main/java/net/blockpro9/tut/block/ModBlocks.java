@@ -1,10 +1,7 @@
 package net.blockpro9.tut.block;
 
 import net.blockpro9.tut.Tut;
-import net.blockpro9.tut.block.custom.ModPressurePlateBlock;
-import net.blockpro9.tut.block.custom.ModStairsBlock;
-import net.blockpro9.tut.block.custom.ModStoneButtonBlock;
-import net.blockpro9.tut.block.custom.SpeedyBlock;
+import net.blockpro9.tut.block.custom.*;
 import net.blockpro9.tut.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -57,6 +54,12 @@ public class ModBlocks {
 
     public static final Block MYTHRIL_WALL = registerBlock("mythril_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.Tut);
+
+    public static final Block CHERRY_BLOSSOM_DOOR = registerBlock("cherry_blossom_door",
+            new ModDoorBlock(FabricBlockSettings.of(Material.WOOD).strength(3f).requiresTool().nonOpaque()), ModItemGroup.Tut);
+    // set material to Metal if you want it to be only opened by redstone..
+    public static final Block CHERRY_BLOSSOM_TRAPDOOR = registerBlock("cherry_blossom_trapdoor",
+            new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).strength(3f).requiresTool().nonOpaque()), ModItemGroup.Tut);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.blockpro9.tut.Tut"
+    ],
+    "client": [
+      "net.blockpro9.tut.TutClient"
     ]
   },
   "mixins": [
