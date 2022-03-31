@@ -45,6 +45,8 @@ public class ModItems {
     public static final Item MYTHRIL_SWORD = registerItem("mythril_sword",
             new SwordItem(ModToolMaterial.MYTHRIL, 3, 3f,
                     new FabricItemSettings().group(ModItemGroup.Tut)));
+    public static final Item RUBY = registerItem("ruby",
+            new Item(new FabricItemSettings().group(ModItemGroup.Tut)));
 
 
 

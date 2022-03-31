@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model":  "tut:block/mythril_block"}
+    "": { "model":  "tut:block/ruby_block"}
   }
 }

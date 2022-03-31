@@ -10,6 +10,7 @@
   "item.tut.mythril_axe": "Mythril Axe",
   "item.tut.mythril_shovel": "Mythril Shovel",
   "item.tut.mythril_hoe": "Mythril Hoe",
+  "item.tut.ruby": "Ruby",
 
 
 
@@ -28,6 +29,9 @@
   "block.tut.mythril_wall": "Mythril Wall",
   "block.tut.cherry_blossom_door": "Cherry Blossom Door",
   "block.tut.cherry_blossom_trapdoor": "Cherry Blossom Trapdoor",
+  "block.tut.ruby_ore": "Ruby Ore",
+  "block.tut.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.tut.ruby_block": "Ruby Block",
 
 
   "itemGroup.tut.tut": "Tut",

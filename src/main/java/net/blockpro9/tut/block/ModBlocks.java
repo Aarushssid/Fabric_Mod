@@ -60,6 +60,12 @@ public class ModBlocks {
     // set material to Metal if you want it to be only opened by redstone..
     public static final Block CHERRY_BLOSSOM_TRAPDOOR = registerBlock("cherry_blossom_trapdoor",
             new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).strength(3f).requiresTool().nonOpaque()), ModItemGroup.Tut);
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.Tut);
+    public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.Tut);
+    public static final Block ruby_BLOCK = registerBlock("ruby_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.Tut);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

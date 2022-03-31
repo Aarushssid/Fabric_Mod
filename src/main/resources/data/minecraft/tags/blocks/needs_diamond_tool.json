@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-
+    "tut:ruby_ore",
+    "tut:deepslate_ruby_ore",
+    "tut:ruby_block"
   ]
 }
