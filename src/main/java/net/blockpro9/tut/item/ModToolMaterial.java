@@ -1,16 +1,15 @@
 package net.blockpro9.tut.item;
 
 import net.fabricmc.yarn.constants.MiningLevels;
-import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.tag.ItemTags;
 import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial{
-    MYTHRIL(MiningLevels.IRON, 450, 4.5f, 3.5f, 25, () -> Ingredient.ofItems(ModItems.MYTHRIL_INGOT));
+    MYTHRIL(MiningLevels.IRON, 450, 4.5f, 3.5f, 25, () -> Ingredient.ofItems(ModItems.MYTHRIL_INGOT)),
+    RUBY(MiningLevels.DIAMOND, 450, 4.5f, 3.5f, 25, () -> Ingredient.ofItems(ModItems.RUBY));
 
     private final int miningLevel;
     private final int itemDurability;

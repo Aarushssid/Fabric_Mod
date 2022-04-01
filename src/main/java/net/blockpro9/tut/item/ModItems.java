@@ -45,8 +45,29 @@ public class ModItems {
     public static final Item MYTHRIL_SWORD = registerItem("mythril_sword",
             new SwordItem(ModToolMaterial.MYTHRIL, 3, 3f,
                     new FabricItemSettings().group(ModItemGroup.Tut)));
+
     public static final Item RUBY = registerItem("ruby",
             new Item(new FabricItemSettings().group(ModItemGroup.Tut)));
+
+    public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
+            new ModPickaxeItem(ModToolMaterial.RUBY, 2, 6f,
+                    new FabricItemSettings().group(ModItemGroup.Tut)));
+
+    public static final Item RUBY_AXE = registerItem("ruby_axe",
+            new ModAxeItem(ModToolMaterial.RUBY, 6, 2f,
+                    new FabricItemSettings().group(ModItemGroup.Tut)));
+
+    public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
+            new ShovelItem(ModToolMaterial.RUBY, 4, 2f,
+                    new FabricItemSettings().group(ModItemGroup.Tut)));
+
+    public static final Item RUBY_HOE = registerItem("ruby_hoe",
+            new ModHoeItem(ModToolMaterial.RUBY, 2, 2f,
+                    new FabricItemSettings().group(ModItemGroup.Tut)));
+
+    public static final Item RUBY_SWORD = registerItem("ruby_sword",
+            new SwordItem(ModToolMaterial.RUBY, 6, 4f,
+                    new FabricItemSettings().group(ModItemGroup.Tut)));
 
 
 
